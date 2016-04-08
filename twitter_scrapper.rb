@@ -84,7 +84,7 @@ class TwitterScrapper
 
 end#class TwitterScrapper
 
-prueba = TwitterScrapper.new('https://twitter.com/Lalokol')
+prueba = TwitterScrapper.new('https://twitter.com/AquiEnCortoTV')
 prueba.extract_username
 prueba.extract_tweets
 prueba.extract_stats
